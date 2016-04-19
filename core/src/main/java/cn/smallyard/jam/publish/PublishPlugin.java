@@ -6,7 +6,7 @@ import cn.smallyard.jam.Plugin;
  * publish plugin
  */
 public class PublishPlugin implements Plugin {
-    public void call(String[] args) {
+    public void call(String value) {
 
     }
 }

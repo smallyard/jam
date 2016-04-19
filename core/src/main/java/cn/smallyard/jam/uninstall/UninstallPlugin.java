@@ -6,7 +6,7 @@ import cn.smallyard.jam.Plugin;
  * uninstall plugin
  */
 public class UninstallPlugin implements Plugin {
-    public void call(String[] args) {
+    public void call(String value) {
 
     }
 }

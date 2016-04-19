@@ -6,7 +6,7 @@ import cn.smallyard.jam.Plugin;
  * install plugin
  */
 public class AddUserPlugin implements Plugin {
-    public void call(String[] args) {
+    public void call(String value) {
 
     }
 }

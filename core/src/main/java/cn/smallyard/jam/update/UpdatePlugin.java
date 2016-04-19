@@ -6,7 +6,7 @@ import cn.smallyard.jam.Plugin;
  * update plugin
  */
 public class UpdatePlugin implements Plugin {
-    public void call(String[] args) {
+    public void call(String value) {
 
     }
 }

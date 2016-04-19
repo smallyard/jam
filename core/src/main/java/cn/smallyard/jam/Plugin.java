@@ -4,5 +4,5 @@ package cn.smallyard.jam;
  * plugin interface
  */
 public interface Plugin {
-    void call(String[] args);
+    void call(String value);
 }
