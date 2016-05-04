@@ -9,13 +9,11 @@ public class JamCli {
     public static void main(String[] args) {
         CommandLineParser parser = new DefaultParser();
         Options options = new Options();
-        options.addOption("u", "adduser", false, "add user.");
         options.addOption("v", "version", false, "show jam's version.");
         options.addOption("i", "install", true, "install app.");
         options.addOption("ui", "uninstall", true, "uninstall app.");
-        options.addOption("p", "publish", false, "publish app to repository.");
-        options.addOption("up", "unpublish", false, "remove app from repository.");
-        options.addOption("u", "update", true, "update app.");
+//        options.addOption("p", "publish", false, "publish app to repository.");
+//        options.addOption("up", "unpublish", false, "remove app from repository.");
 
         try {
             CommandLine line = parser.parse(options, args);

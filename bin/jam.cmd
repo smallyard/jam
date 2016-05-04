@@ -1,4 +1,4 @@
 @echo off
-set JAM_HOME=H:\jam
-set ASSEMBLY_DIR=%JAM_HOME%\core\target\jam-core-jar-with-dependencies.jar
-java -cp %ASSEMBLY_DIR% cn.smallyard.jam.JamCli %*
+rem set ASSEMBLY_DIR=H:\jam\core\target\jam-core-jar-with-dependencies.jar
+set ASSEMBLY_DIR=%JAM_HOME%\lib\jam-core.jar
+java -cp %ASSEMBLY_DIR% -DJAM_HOME=%JAM_HOME% cn.smallyard.jam.JamCli %*

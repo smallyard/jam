@@ -7,6 +7,6 @@ import cn.smallyard.jam.Plugin;
  */
 public class UnpublishPlugin implements Plugin {
     public void call(String value) {
-
+        System.out.println("building ...");
     }
 }
