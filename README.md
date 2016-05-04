@@ -10,10 +10,6 @@ java application manager
 
 
 ```
-//by manual
-JAM_HOME=path/jam
-PATH=%JAM_HOME%/bin;%JAM_HOME%/apps
-//automatic
 run install.bat
 ```
 
